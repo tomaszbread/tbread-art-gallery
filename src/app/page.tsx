@@ -72,7 +72,7 @@ const Home: React.FC = () => {
   useEffect(() => {
     const updateColumns = () => {
       let columns: number;
-      if (window.innerWidth < 600) columns = 1;
+      if (window.innerWidth < 600) columns = 2;
       else if (window.innerWidth < 900) columns = 2;
       else columns = 2;
       
