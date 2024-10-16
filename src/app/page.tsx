@@ -55,7 +55,7 @@ const Home: React.FC = () => {
   useEffect(() => {
     const fetchPhotos = async () => {
       try {
-        const response = await fetch("https://tbread-art-cms.onrender.com/api/photos?populate=*");
+        const response = await fetch("https://tbread-art-cms.onrender.com/api/photos?populate=*&pagination[limit]=-1");
         if (!response.ok) throw new Error("Network response was not ok");
         const data: ApiResponse = await response.json();
         setPhotos(data.data);
