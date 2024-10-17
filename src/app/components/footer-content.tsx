@@ -4,9 +4,6 @@ const FooterContent = () => (
   <div className="flex-container">
     <div className="flex-item center-flex motto">
     <div className="motto-content">&quot;Należy się zmieniać, by jakim jest się pozostać&quot;</div>
-
-    <div className="tbart">tomaszbread.art</div>
-
     </div>
     <div className="flex-item">
       <div className="social">
