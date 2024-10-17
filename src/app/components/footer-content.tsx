@@ -12,8 +12,10 @@ const FooterContent = () => (
       </div>
 
     </div> */}
-    <div className="flex-item center-flex">
-    <p>tomaszbread.art</p>
+    <div className="flex-item center-flex motto">
+    <div className='motto-content'>"Należy się zmieniać, by jakim jest się pozostać"</div>
+
+    <div className='tbart'>tomaszbread.art</div>
 
     </div>
     <div className="flex-item">

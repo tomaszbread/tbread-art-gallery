@@ -218,3 +218,16 @@ a {
   }
 
 }
+
+.tbart{
+  display: flex;
+  font-size: 25px;
+}
+
+.motto{
+  text-align: -webkit-center;
+  flex-direction: column;
+}
+.motto-content{
+  padding: 20px;
+}
