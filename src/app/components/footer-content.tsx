@@ -3,7 +3,7 @@ import React from 'react';
 const FooterContent = () => (
   <div className="flex-container">
     <div className="flex-item center-flex motto">
-    <div className="motto-content">"Należy się zmieniać, by jakim jest się pozostać"</div>
+    <div className="motto-content">&quot;Należy się zmieniać, by jakim jest się pozostać&quot;</div>
 
     <div className="tbart">tomaszbread.art</div>
 
