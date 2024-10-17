@@ -2,20 +2,10 @@ import React from 'react';
 
 const FooterContent = () => (
   <div className="flex-container">
-    {/* <div className="flex-item">
-      <div className='equipment'>
-      <br />
-      <p>Sigma 70-200mm F2.8 / Sigma 50 mm F1.4 / Sony Alfa A7 III </p>
-
-      <br />
-      <br />
-      </div>
-
-    </div> */}
     <div className="flex-item center-flex motto">
-    <div className='motto-content'>"Należy się zmieniać, by jakim jest się pozostać"</div>
+    <div className="motto-content">"Należy się zmieniać, by jakim jest się pozostać"</div>
 
-    <div className='tbart'>tomaszbread.art</div>
+    <div className="tbart">tomaszbread.art</div>
 
     </div>
     <div className="flex-item">
