@@ -223,6 +223,10 @@ a {
     width: 65%;
   }
 
+  .avatar svg {
+    width: 45px;
+}
+
 }
 
 .tbart{
