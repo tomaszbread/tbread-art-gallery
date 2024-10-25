@@ -201,7 +201,7 @@ a {
   }
 
   .center-flex {
-    font-size: 15px;
+    font-size: 20px;
   }
 
   .social {
@@ -236,7 +236,7 @@ a {
 .motto {
   text-align: -webkit-center;
   flex-direction: column;
-  font-family: "Domine", serif;
+
 }
 .motto-content {
   padding: 20px;
