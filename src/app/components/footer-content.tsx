@@ -7,7 +7,7 @@ const FooterContent = () => (
     </div>
     <div className="flex-item">
       <div className="social">
-        <a href="https://www.instagram.com/tomasz_bread/" target="_blank" aria-label="Instagram" title="Instagram">
+        <a href="https://www.instagram.com/vanitasvitae/" target="_blank" aria-label="Instagram" title="Instagram">
           <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clipPath="url(#clip0_7_382)">
               <path
