@@ -56,7 +56,7 @@ const Home: React.FC = () => {
     const fetchPhotos = async () => {
       try {
         const response = await fetch(
-          "http://localhost:1337/api/photos?populate=*&pagination[limit]=-1"
+         "https://tbread-art-cms.onrender.com/api/photos?populate=*&pagination[limit]=-1"
         );
         if (!response.ok) throw new Error("Network response was not ok");
         const data: ApiResponse = await response.json();
