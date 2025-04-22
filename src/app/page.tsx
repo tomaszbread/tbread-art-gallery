@@ -56,7 +56,7 @@ const Home: React.FC = () => {
     const fetchPhotos = async () => {
       try {
         const response = await fetch(
-          "https://tbread-art-cms.onrender.com/api/photos?populate=*&pagination[limit]=-1"
+          "http://localhost:1337/api/photos?populate=*&pagination[limit]=-1"
         );
         if (!response.ok) throw new Error("Network response was not ok");
         const data: ApiResponse = await response.json();
@@ -74,9 +74,9 @@ const Home: React.FC = () => {
   useEffect(() => {
     const updateColumns = () => {
       let columns: number;
-      if (window.innerWidth < 600) columns = 2;
-      else if (window.innerWidth < 900) columns = 2;
-      else columns = 2;
+      if (window.innerWidth < 600) columns = 3;
+      else if (window.innerWidth < 900) columns = 3;
+      else columns = 3;
 
       if (manualColumns === null) {
         // Tylko aktualizuj defaultColumns jeśli użytkownik nie zmienił kolumn manualnie
